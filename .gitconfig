@@ -6,7 +6,7 @@
     quotepath = false
 [alias]
     l = log --pretty=oneline -n 20 --graph --abbrev-commit
-    ll = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    ll = log --color --graph --pretty=format:'%Cred%h%Creset %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)%cd' --abbrev-commit --date=short
     co = checkout
     ci = commit
     br = branch
